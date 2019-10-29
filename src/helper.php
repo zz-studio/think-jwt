@@ -20,7 +20,8 @@
  * +----------------------------------------------------------------------
  */
 
-\think\Console::addCommands([
-    "\\think\\jwt\\command\\SendConfig"
-]);
-
+\think\Console::starting(function (\think\Console $console) {
+    $console->addCommands([
+        'jwt:config' => '\\think\\jwt\\command\\SendConfig'
+    ]);
+});

@@ -1,0 +1,27 @@
+{
+    "name": "zzstudio/think-jwt",
+    "description": "The ThinkPHP5+ Auth Package",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "byron",
+            "email": "xiaobo.sun@qq.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "~5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "scripts" : {
+        "post-install-cmd": [
+            "think\\jwt\\command\\sendConfig"
+        ]
+    }
+}

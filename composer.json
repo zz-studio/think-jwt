@@ -1,6 +1,6 @@
 {
     "name": "zzstudio/think-jwt",
-    "description": "The ThinkPHP5+ Auth Package",
+    "description": "The ThinkPHP6+ Jwt Package",
     "license": "Apache-2.0",
     "authors": [
         {

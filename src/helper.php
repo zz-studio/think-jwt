@@ -20,7 +20,7 @@
  * +----------------------------------------------------------------------
  */
 
-\think\Console::addDefaultCommands([
+\think\Console::addCommands([
     "\\think\\jwt\\command\\SendConfig"
 ]);
 

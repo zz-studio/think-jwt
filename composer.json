@@ -9,6 +9,8 @@
         }
     ],
     "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0",
         "firebase/php-jwt": "~5.0.0"
     },
     "autoload": {

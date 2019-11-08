@@ -10,6 +10,17 @@ Use composer to manage your dependencies and download think-jwt:
 composer require zzstudio/think-jwt
 ```
 
+### 生成配置
+
+系统安装后会自动在 config 目录中生成 jwt.php 的配置文件，
+如果系统未生成可在命令行执行
+
+```php
+php think jwt:config 
+```
+
+快速生成配置文件
+
 Example
 -------
 ```php

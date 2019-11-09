@@ -83,6 +83,9 @@ class Jwt
                 if (!isset($arguments[1])) {
                     $arguments[1] = $options['key'];
                 }
+                if (!isset($arguments[2])) {
+                    $arguments[2] = array_keys(self::$supported_algs);
+                }
                 break;
         }
 
